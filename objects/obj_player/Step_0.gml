@@ -5,9 +5,6 @@ if(start_up_frame != 0)start_up_frame --;
 if(keyboard_check_pressed(ord("R"))){
 	game_restart();
 }
-
-show_debug_message(vsp)
-
 ////Inputs
 //key_left = keyboard_check(vk_left);
 //key_right = keyboard_check(vk_right);

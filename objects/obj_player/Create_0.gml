@@ -40,3 +40,6 @@ punish_time = 0;
 punish_time_max = 17;
 //Roll
 isOver = false;
+//Attack
+hitByAttack = ds_list_create();
+

@@ -201,7 +201,18 @@ function scr_player_dead(){
 sprite_index = herochar_death_anim_strip8;
 }
 function scr_player_attack(){
-	sprite_index = herochar_attack_anim_strip4;
+hsp = 0;
+vsp = 0;
+
+//Start of the Attack
+if(sprite_index != herochar_sword_attack_anim_strip4){
+	sprite_index = herochar_sword_attack_anim_strip4;
+	image_index = 0;
+	ds_list_clear(hitByAttack);
+}
+
+
+
 }
 function scr_player_attack_combo(){}
 #endregion
