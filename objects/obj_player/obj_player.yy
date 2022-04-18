@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "herochar_idle_anim_strip4",
+    "path": "sprites/herochar_idle_anim_strip4/herochar_idle_anim_strip4.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

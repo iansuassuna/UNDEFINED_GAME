@@ -9,7 +9,7 @@ if(place_meeting(x,y+1,obj_spike)){
 }
 
 //Inputs
-
+mask_index = herochar_idle_anim_strip4;
 onwall = place_meeting(x+1,y,obj_wall) - place_meeting(x-1,y,obj_wall);
 onground = place_meeting(x,y+1,obj_wall);
 punish_time = max(punish_time-1,0);
@@ -37,7 +37,9 @@ if(friction_delay > 0){
 			hsp = _move * walksp;
 			friction_delay = 0;
 		}
-	if(onground) friction_delay = 0;
+	if(onground){
+		friction_delay = 0;
+	}
 }
 
 //Jump
@@ -46,8 +48,9 @@ if(onground && key_jump){
 }
 
 //Attack
-if(key_attack){
-	alarm[0] = 12;
+if(onground) attacked = false;
+
+if(key_attack && !attacked){
 	state = scr_player_attack;
 }
 
@@ -113,8 +116,8 @@ if(hsp == 0){
 }
 #endregion
 }
-
 function scr_player_roll(){
+mask_index = herochar_jump_double_anim_strip3;
 roll_dir = image_xscale;
 hsp = roll_dir * roll_vel;
 jumped = false;
@@ -125,6 +128,7 @@ key_jump = keyboard_check_pressed(vk_space);
 		Collision_controler();
 		cooldown = 1;
 			if(key_jump){
+				mask_index = herochar_idle_anim_strip4;
 				friction_delay = 2;
 				state = scr_player_roll_jump;
 			}
@@ -147,18 +151,22 @@ can_dash = false;
 	}
 }
 function scr_player_roll_jump(){
+	//Inputs
 	alarm[5] = false;
 	alarm[1] = 16;
+	mask_index = herochar_jump_double_anim_strip3;
 	friction_delay --;
 	onwall = place_meeting(x+1,y,obj_wall) - place_meeting(x-1,y,obj_wall);
 	onground = place_meeting(x,y+1,obj_wall);
 	hsp = clamp(hsp,-hsp_rj,hsp_rj);
+	//Logic
 	if(friction_delay <= 0){
 		vsp = clamp(vsp,vsp_rj,-vsp_rj);
 		vsp += grv_roll;
 	}else{
 		vsp = vsp_rj;
 	}
+	
 	cooldown = 1;
 	jumped = false;
 	recovery_frame= 14;
@@ -166,10 +174,10 @@ function scr_player_roll_jump(){
 	Collision_controler();
 	
 	
-	
+	//Back to Free State
 	if(onwall != 0 && friction_delay <= 0 or onground && friction_delay <= 0){
-		state = scr_player;
 		friction_delay = 0;
+		state = scr_player;
 	}
 	
 }
@@ -201,8 +209,10 @@ function scr_player_dead(){
 sprite_index = herochar_death_anim_strip8;
 }
 function scr_player_attack(){
-hsp = 0;
+hsp = walksp * image_xscale;
 vsp = 0;
+
+Collision_controler();
 
 //Start of the Attack
 if(sprite_index != herochar_sword_attack_anim_strip4){
@@ -211,7 +221,29 @@ if(sprite_index != herochar_sword_attack_anim_strip4){
 	ds_list_clear(hitByAttack);
 }
 
+//Attack Hitbox and Hits
+mask_index = herochar_attack_hitbox_anim_strip4;
+var hitByAttackNow = ds_list_create();
+var hits = instance_place_list(x,y,obj_slime,hitByAttackNow,false);
+if(hits > 0){
+	for (var enemyHits = 0; enemyHits < hits; enemyHits++){
+		//If the entity has not yet been hit
+		var hitID = ds_list_find_value(hitByAttackNow,enemyHits);
+		if(ds_list_find_index(hitByAttack,hitID) == -1){
+				ds_list_add(hitByAttack,hitID)
+				with (hitID){
+					hit = 1;	
+				}
+			}
+	}
+}
+ds_list_destroy(hitByAttackNow);
+mask_index = herochar_idle_anim_strip4;
 
+if(Animation_end()){
+	attacked = true;
+	state = scr_player;	
+}
 
 }
 function scr_player_attack_combo(){}

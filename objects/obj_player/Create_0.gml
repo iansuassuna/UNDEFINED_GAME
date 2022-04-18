@@ -42,4 +42,4 @@ punish_time_max = 17;
 isOver = false;
 //Attack
 hitByAttack = ds_list_create();
-
+attacked = false;
