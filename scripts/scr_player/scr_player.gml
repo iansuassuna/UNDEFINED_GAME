@@ -232,7 +232,7 @@ if(hits > 0){
 		if(ds_list_find_index(hitByAttack,hitID) == -1){
 				ds_list_add(hitByAttack,hitID)
 				with (hitID){
-					hit = 1;	
+					life -= 10;
 				}
 			}
 	}
