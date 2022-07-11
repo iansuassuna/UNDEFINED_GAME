@@ -43,3 +43,4 @@ isOver = false;
 //Attack
 hitByAttack = ds_list_create();
 attacked = false;
+damage = 10;
