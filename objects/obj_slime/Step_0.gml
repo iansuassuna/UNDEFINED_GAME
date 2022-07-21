@@ -2,27 +2,32 @@
 
 life_in_percent = life/max_life * 100;
 
+
 if(hit){
-	if(!invulnerable) life -= 5;
+	alarm[0] = false;
 	sprite_index = slime_hit_anim_strip3;
+	if(!invulnerable){ 
+		life -= 5;
+		image_index = 0;
+	}
 	invulnerable = true;
 	
 	while(knockback == false){
-		show_debug_message("knockback");
-		alarm[0] = false;
 		dir = point_direction(obj_player.x,y,x,y);
-		hsp = lengthdir_x(walksp,dir);
 		vsp = -jumpsp/2;
 		knockback = true;
 	}
+	
 	
 	if(Animation_end(slime_hit_anim_strip3)){
 		knockback = false;
 		invulnerable = false;
 		hit = false;
+		sprite_index = slime_idle_anim_strip5;
+	}else{
+		sprite_index = slime_hit_anim_strip3;
 	}
-}else{
-	sprite_index = slime_idle_anim_strip5;
+	
 }
 
 if(life <= 0){

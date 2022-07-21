@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"background","path":"sprites/background/background.yy",},"order":6,},
     {"id":{"name":"slime_idle_anim_strip5","path":"sprites/slime_idle_anim_strip5/slime_idle_anim_strip5.yy",},"order":10,},
+    {"id":{"name":"scr_enemy","path":"scripts/scr_enemy/scr_enemy.yy",},"order":4,},
     {"id":{"name":"Animation_end","path":"scripts/Animation_end/Animation_end.yy",},"order":3,},
     {"id":{"name":"herochar_sword_attack_anim_strip4","path":"sprites/herochar_sword_attack_anim_strip4/herochar_sword_attack_anim_strip4.yy",},"order":13,},
     {"id":{"name":"sword_effect_strip4","path":"sprites/sword_effect_strip4/sword_effect_strip4.yy",},"order":11,},
