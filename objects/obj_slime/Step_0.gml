@@ -1,7 +1,7 @@
 #region Hit and Life Logic
 if(hit){
 	sprite_index = slime_hit_anim_strip3;
-	if(Animation_end()){
+	if(Animation_end(slime_hit_anim_strip3)){
 		hit = false;
 	}
 }else{
@@ -24,10 +24,17 @@ if(!onground){
 	hsp = 0;
 }
 
+
 if(instance_exists(obj_player)){
-	if(region <= range && alarm[0] <= 0 && onground){
+	if(region <= range && alarm[0] = -1 && onground){
 		dir = point_direction(x,y,obj_player.x,y);
-		alarm[0] = room_speed;
+		alarm[0] = room_speed/4;	
+		show_debug_message(dir);
+	}
+	if(region > range && alarm[0] = -1 && onground){
+		dir = choose(0,180);
+		alarm[0] = room_speed/2;
+		show_debug_message(dir);
 	}
 }
 

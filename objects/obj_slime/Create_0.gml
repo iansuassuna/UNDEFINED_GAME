@@ -1,10 +1,10 @@
 hit = false;
 jumped = false;
-life = 10;
+life = 50;
 grv = 0.3;
 jumpsp = 5;
 walksp = 1;
 hsp = 0;
 vsp = 0;
 dir = 0;
-range = 70;
+range = 120;
