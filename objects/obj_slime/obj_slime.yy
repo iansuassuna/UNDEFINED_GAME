@@ -6,7 +6,10 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "slime_idle_anim_strip5",
+    "path": "sprites/slime_idle_anim_strip5/slime_idle_anim_strip5.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

@@ -1,7 +1,24 @@
 #region Hit and Life Logic
+
+life_in_percent = life/max_life * 100;
+
 if(hit){
+	if(!invulnerable) life -= 5;
 	sprite_index = slime_hit_anim_strip3;
+	invulnerable = true;
+	
+	while(knockback == false){
+		show_debug_message("knockback");
+		alarm[0] = false;
+		dir = point_direction(obj_player.x,y,x,y);
+		hsp = lengthdir_x(walksp,dir);
+		vsp = -jumpsp/2;
+		knockback = true;
+	}
+	
 	if(Animation_end(slime_hit_anim_strip3)){
+		knockback = false;
+		invulnerable = false;
 		hit = false;
 	}
 }else{
@@ -11,6 +28,7 @@ if(hit){
 if(life <= 0){
 	instance_destroy(self);
 }
+
 #endregion
 
 #region Movement Logic
@@ -25,16 +43,14 @@ if(!onground){
 }
 
 
-if(instance_exists(obj_player)){
+if(instance_exists(obj_player) && hit == false){
 	if(region <= range && alarm[0] = -1 && onground){
 		dir = point_direction(x,y,obj_player.x,y);
 		alarm[0] = room_speed/4;	
-		show_debug_message(dir);
 	}
 	if(region > range && alarm[0] = -1 && onground){
 		dir = choose(0,180);
 		alarm[0] = room_speed/2;
-		show_debug_message(dir);
 	}
 }
 
