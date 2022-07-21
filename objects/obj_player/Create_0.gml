@@ -13,6 +13,8 @@ can_walljp = true;
 onwall = 0;
 hsp_max = 6;
 friction_delay = 0;
+fall_delay = false;
+fall_hsp = 0;
 fric = 0;
 //Roll
 roll_dir = image_xscale;

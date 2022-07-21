@@ -22,23 +22,23 @@ key_roll = keyboard_check_pressed(vk_shift);
 //Movement
 var _move = key_right - key_left;
 clamp(hsp,-hsp_max,hsp_max);
-if(friction_delay == 0){
+if(!fall_delay){
 	if(punish_time == 0){
 		hsp = _move * walksp;
 	}
 }
 vsp += grv;
 
-//Friction
-if(friction_delay > 0){
+//Fall
+if(fall_delay){
 	if(_move == 0){
-			hsp = hsp_wjump * image_xscale * 0.6;
+			hsp = fall_hsp;
 		}else{
 			hsp = _move * walksp;
-			friction_delay = 0;
+			fall_delay = false;
 		}
 	if(onground){
-		friction_delay = 0;
+		fall_delay = false;
 	}
 }
 
@@ -75,7 +75,8 @@ if(onground) can_dash = true;
 
 if(recovery_frame = 0 && can_dash){
 	if(key_roll && !onground){
-		friction_delay = 15;
+		fall_delay = true;
+		fall_hsp = hsp_wjump * image_xscale*0.7;
 		alarm[0] = 16;
 		start_up_frame = 4;
 		state = scr_player_dash;
@@ -190,7 +191,7 @@ function scr_player_wall_jump(){
 	hsp = clamp(hsp,-hsp_max,hsp_max);
 	vsp = clamp(vsp,-vsp_max_wall,vsp_max_wall);
 	vsp += grv_wall;
-	
+	fall_hsp = hsp_wjump * image_xscale * 0.6;
 
 	Collision_controler();
 
@@ -199,7 +200,7 @@ function scr_player_wall_jump(){
 		hsp = -onwall * hsp_wjump;
 	}
 	if(vsp >= 0){
-		friction_delay = 1;
+		fall_delay = true;
 		state = scr_player;
 	}
 
@@ -232,7 +233,8 @@ if(hits > 0){
 		if(ds_list_find_index(hitByAttack,hitID) == -1){
 				ds_list_add(hitByAttack,hitID)
 				with (hitID){
-					life -= 10;
+					hit = true;
+					life -= 5;
 				}
 			}
 	}
@@ -242,6 +244,10 @@ mask_index = herochar_idle_anim_strip4;
 
 if(Animation_end()){
 	attacked = true;
+		if(!onground){
+			fall_delay = true;
+			fall_hsp = walksp * image_xscale;
+		}
 	state = scr_player;	
 }
 

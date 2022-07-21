@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "herochar_idle_anim_strip4",
     "path": "sprites/herochar_idle_anim_strip4/herochar_idle_anim_strip4.yy",
