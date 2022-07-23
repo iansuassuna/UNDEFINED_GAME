@@ -7,7 +7,3 @@ global.cameraY = clamp(global.cameraY,0,room_width - global.camera_H);
 }
 
 camera_set_view_pos(view_camera[0],global.cameraX, global.cameraY);
-
-
-//if(target.y > 710){ target.y = 688; target.x = 16;}
-

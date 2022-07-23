@@ -6,11 +6,12 @@ life_in_percent = life/max_life * 100;
 if(hit){
 	alarm[0] = false;
 	sprite_index = slime_hit_anim_strip3;
+	
 	if(!invulnerable){ 
 		life -= 5;
 		image_index = 0;
+		invulnerable = true;
 	}
-	invulnerable = true;
 	
 	while(knockback == false){
 		dir = point_direction(obj_player.x,y,x,y);

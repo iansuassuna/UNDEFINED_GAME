@@ -38,7 +38,7 @@
     "spriteId": {"name":"slime_hit_anim_strip3","path":"sprites/slime_hit_anim_strip3/slime_hit_anim_strip3.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 8.0,
+    "playbackSpeed": 6.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

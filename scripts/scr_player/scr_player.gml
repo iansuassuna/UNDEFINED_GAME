@@ -3,9 +3,8 @@
 function scr_player(){
 //Ifs dead
 if(place_meeting(x,y+1,obj_spike)){
-	global.damage = 100000;
-	alarm[4] = 16;
-	event_perform(ev_other,ev_user0);
+	global.damage = 1;
+	state = scr_player_hit;
 }
 
 //Inputs
@@ -156,6 +155,7 @@ function scr_player_roll_jump(){
 	alarm[5] = false;
 	alarm[1] = 16;
 	mask_index = herochar_jump_double_anim_strip3;
+	key_attack = keyboard_check_pressed(ord("J"));
 	friction_delay --;
 	onwall = place_meeting(x+1,y,obj_wall) - place_meeting(x-1,y,obj_wall);
 	onground = place_meeting(x,y+1,obj_wall);
@@ -174,6 +174,9 @@ function scr_player_roll_jump(){
 	
 	Collision_controler();
 	
+	if(key_attack){
+		state = scr_player_attack;
+	}
 	
 	//Back to Free State
 	if(onwall != 0 && friction_delay <= 0 or onground && friction_delay <= 0){
@@ -207,7 +210,18 @@ function scr_player_wall_jump(){
 }
 #region Later	
 function scr_player_dead(){
-sprite_index = herochar_death_anim_strip8;
+if(sprite_index != herochar_death_anim_strip8){
+	sprite_index = herochar_death_anim_strip8;
+	image_index = 0;
+}
+
+if(Animation_end()){
+	y = 688; x = 16;
+	global.damage = 0;
+	hp = max_hp;
+	state = scr_player;
+}
+
 }
 function scr_player_attack(){
 hsp = walksp * image_xscale;
@@ -225,7 +239,7 @@ if(sprite_index != herochar_sword_attack_anim_strip4){
 //Attack Hitbox and Hits
 mask_index = herochar_attack_hitbox_anim_strip4;
 var hitByAttackNow = ds_list_create();
-var hits = instance_place_list(x,y,obj_slime,hitByAttackNow,false);
+var hits = instance_place_list(x,y,obj_enemy,hitByAttackNow,false);
 if(hits > 0){
 	for (var enemyHits = 0; enemyHits < hits; enemyHits++){
 		//If the entity has not yet been hit
@@ -251,5 +265,30 @@ if(Animation_end()){
 }
 
 }
-function scr_player_attack_combo(){}
+function scr_player_hit(){
+	if(sprite_index != herochar_hit_anim_strip3){
+		sprite_index = herochar_hit_anim_strip3; 
+		image_index = 0;
+	}
+	
+	while(knockback == false){
+		dir = point_direction(instance_nearest(x,y,obj_enemy).x,y,x,y);
+		hsp = lengthdir_x(knockback_hsp,dir);
+		vsp = -knockback_vsp;
+		knockback = true;
+	}
+	vsp += grv;
+	
+	Collision_controler();
+	
+	if(Animation_end(herochar_hit_anim_strip3)){
+		hsp = 0;
+		knockback = false;
+		event_perform(ev_other,ev_user0);
+	}else{
+		sprite_index = herochar_hit_anim_strip3;
+	}
+
+}
+
 #endregion
