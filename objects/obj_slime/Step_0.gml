@@ -14,7 +14,7 @@ if(hit){
 	}
 	
 	while(knockback == false){
-		dir = point_direction(obj_player.x,y,x,y);
+		dir = knockback_dir;
 		vsp = -jumpsp/2;
 		knockback = true;
 	}

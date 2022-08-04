@@ -27,6 +27,11 @@ displayHeight = global.camera_H * displayScale;
 window_set_size(displayWidth, displayHeight);
 surface_resize(application_surface,displayWidth,displayHeight);
 
-//GUI
+//GUI SETUP
 display_set_gui_size(global.camera_W,global.camera_H);
 alarm[0] = 1;
+//GUI ELEMENTS
+health_bar_x1 = 10;
+health_bar_x2 = 51;
+health_bar_y1 = 21;
+health_bar_y2 = 10;

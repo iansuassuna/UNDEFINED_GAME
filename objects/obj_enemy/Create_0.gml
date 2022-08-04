@@ -1,7 +1,5 @@
 //Normal
 hit = false;
-life = 100;
-max_life = 100;
 invulnerable = false;
 knockback = false;
 life_in_percent = life/max_life * 100;

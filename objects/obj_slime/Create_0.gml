@@ -13,4 +13,3 @@ hsp = 0;
 vsp = 0;
 dir = 0;
 range = 120;
-time = 100/3;

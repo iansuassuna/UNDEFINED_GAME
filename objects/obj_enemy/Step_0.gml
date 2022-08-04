@@ -13,8 +13,7 @@ if(hit){
 	}
 	
 	while(knockback == false){
-		dir = point_direction(obj_player.x,y,x,y);
-		hsp = lengthdir_x(knockback_hsp,dir);
+		hsp = lengthdir_x(knockback_hsp,knockback_dir);
 		vsp = -knockback_vsp;
 		knockback = true;
 	}

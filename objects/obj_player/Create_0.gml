@@ -1,7 +1,7 @@
 /// @description Variables
 //HP
-hp = 10;
-max_hp = 10;
+hp = 50;
+max_hp = 50;
 damage = 0;
 //Movement
 hsp= 0;
@@ -18,7 +18,7 @@ fall_hsp = 0;
 fric = 0;
 //Roll
 roll_dir = image_xscale;
-roll_vel = 4.5;
+roll_vel = 5;
 vsp_rj = -4;
 hsp_rj = 6;
 grv_roll = 0.35;

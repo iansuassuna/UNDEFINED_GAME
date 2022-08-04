@@ -4,6 +4,7 @@ function scr_player(){
 //Ifs dead
 if(place_meeting(x,y+1,obj_spike)){
 	global.damage = 1;
+	knockback_dir = choose(-1,1);
 	state = scr_player_hit;
 }
 
@@ -45,11 +46,10 @@ if(fall_delay){
 if(onground && key_jump){
 	vsp = -jumpsp
 }
-
 //Attack
 if(onground) attacked = false;
 
-if(key_attack && !attacked){
+if(key_attack && !attacked && recovery_frame == 0){
 	state = scr_player_attack;
 }
 
@@ -62,7 +62,7 @@ if(!onground && key_jump && onwall != 0){
 
 //Roll
 if(cooldown != 1 && recovery_frame = 0){
-	if(key_roll && onground && vsp> 0){
+	if(key_roll && onground && vsp > 0){
 		alarm[5] = 16;
 		start_up_frame = 4;
 		state = scr_player_roll;
@@ -120,6 +120,7 @@ function scr_player_roll(){
 mask_index = herochar_jump_double_anim_strip3;
 roll_dir = image_xscale;
 hsp = roll_dir * roll_vel;
+vsp += grv/2;
 jumped = false;
 key_jump = keyboard_check_pressed(vk_space);
 
@@ -127,6 +128,7 @@ key_jump = keyboard_check_pressed(vk_space);
 		sprite_index = herochar_jump_double_anim_strip3;
 		Collision_controler();
 		cooldown = 1;
+		fall_delay = true;
 			if(key_jump){
 				mask_index = herochar_idle_anim_strip4;
 				friction_delay = 2;
@@ -135,20 +137,20 @@ key_jump = keyboard_check_pressed(vk_space);
 		}
 }
 function scr_player_dash(){
-dash_dir = image_xscale;
-hsp = dash_dir * dash_vel;
-vsp = 0;
-fric = 4;
-can_dash = false;
-	if(start_up_frame = 0){
-		sprite_index = herochar_jump_up_anim_strip3;
-		Collision_controler();
+	dash_dir = image_xscale;
+	hsp = dash_dir * dash_vel;
+	vsp = 0;
+	fric = 4;
+	can_dash = false;
+		if(start_up_frame = 0){
+			sprite_index = herochar_jump_up_anim_strip3;
+			Collision_controler();
 		
-		var _inst = instance_create_layer(x,y,"Instances",obj_dash);
+			var _inst = instance_create_layer(x,y,"Entitys",obj_dash);
 	
-	    _inst.sprite_index = sprite_index;
-		_inst.image_xscale = image_xscale;
-	}
+		    _inst.sprite_index = sprite_index;
+			_inst.image_xscale = image_xscale;
+		}
 }
 function scr_player_roll_jump(){
 	//Inputs
@@ -247,6 +249,7 @@ if(hits > 0){
 		if(ds_list_find_index(hitByAttack,hitID) == -1){
 				ds_list_add(hitByAttack,hitID)
 				with (hitID){
+					knockback_dir = obj_player.image_xscale;
 					hit = true;
 				}
 			}
@@ -257,6 +260,7 @@ mask_index = herochar_idle_anim_strip4;
 
 if(Animation_end()){
 	attacked = true;
+	recovery_frame = 30;
 		if(!onground){
 			fall_delay = true;
 			fall_hsp = walksp * image_xscale;
@@ -272,11 +276,12 @@ function scr_player_hit(){
 	}
 	
 	while(knockback == false){
-		dir = point_direction(instance_nearest(x,y,obj_enemy).x,y,x,y);
-		hsp = lengthdir_x(knockback_hsp,dir);
+		dir = knockback_dir;
+		hsp = knockback_hsp * dir;
 		vsp = -knockback_vsp;
 		knockback = true;
 	}
+	
 	vsp += grv;
 	
 	Collision_controler();
