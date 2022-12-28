@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "goblin_attack_anim_strip4",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"95526637-5a38-4978-b99d-3c857a5ed39e","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"95526637-5a38-4978-b99d-3c857a5ed39e","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"LayerId":{"name":"c66f1345-5271-4c10-a142-5161d71a80ea","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"goblin_attack_anim_strip4","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"resourceVersion":"1.0","name":"95526637-5a38-4978-b99d-3c857a5ed39e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f05515a1-ce2c-4d74-9cd0-84bd1844a644","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f05515a1-ce2c-4d74-9cd0-84bd1844a644","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"LayerId":{"name":"c66f1345-5271-4c10-a142-5161d71a80ea","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"goblin_attack_anim_strip4","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"resourceVersion":"1.0","name":"f05515a1-ce2c-4d74-9cd0-84bd1844a644","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7d0b9ad5-758d-453f-92a9-029a76efb743","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7d0b9ad5-758d-453f-92a9-029a76efb743","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"LayerId":{"name":"c66f1345-5271-4c10-a142-5161d71a80ea","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"goblin_attack_anim_strip4","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"resourceVersion":"1.0","name":"7d0b9ad5-758d-453f-92a9-029a76efb743","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3f8e19ff-b553-46ab-8b0c-1dda45ecdf07","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3f8e19ff-b553-46ab-8b0c-1dda45ecdf07","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"LayerId":{"name":"c66f1345-5271-4c10-a142-5161d71a80ea","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"goblin_attack_anim_strip4","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"resourceVersion":"1.0","name":"3f8e19ff-b553-46ab-8b0c-1dda45ecdf07","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"95526637-5a38-4978-b99d-3c857a5ed39e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f05515a1-ce2c-4d74-9cd0-84bd1844a644",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7d0b9ad5-758d-453f-92a9-029a76efb743",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3f8e19ff-b553-46ab-8b0c-1dda45ecdf07",},
   ],
   "sequence": {
-    "spriteId": {"name":"goblin_attack_anim_strip4","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "goblin_attack_anim_strip4",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 8.0,
@@ -46,15 +43,15 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 4.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ba700673-fdfa-4ccd-8f34-209915718ef2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"95526637-5a38-4978-b99d-3c857a5ed39e","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"18482184-3901-4a0d-9086-f1c0230c896b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f05515a1-ce2c-4d74-9cd0-84bd1844a644","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"056ac505-e0ea-471c-a685-fd094a998b75","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7d0b9ad5-758d-453f-92a9-029a76efb743","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"e3c1c3af-153f-4fa5-a50a-0b90722103b5","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3f8e19ff-b553-46ab-8b0c-1dda45ecdf07","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"ba700673-fdfa-4ccd-8f34-209915718ef2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"95526637-5a38-4978-b99d-3c857a5ed39e","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"18482184-3901-4a0d-9086-f1c0230c896b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f05515a1-ce2c-4d74-9cd0-84bd1844a644","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"056ac505-e0ea-471c-a685-fd094a998b75","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7d0b9ad5-758d-453f-92a9-029a76efb743","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e3c1c3af-153f-4fa5-a50a-0b90722103b5","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3f8e19ff-b553-46ab-8b0c-1dda45ecdf07","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"goblin_attack_anim_strip4","path":"sprites/goblin_attack_anim_strip4/goblin_attack_anim_strip4.yy",},
-    "resourceVersion": "1.4",
-    "name": "goblin_attack_anim_strip4",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c66f1345-5271-4c10-a142-5161d71a80ea","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c66f1345-5271-4c10-a142-5161d71a80ea","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "goblin_attack_anim_strip4",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

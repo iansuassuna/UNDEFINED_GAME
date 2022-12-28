@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "herochar_death_anim_strip8",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,33 +27,19 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"66a44f6a-09e2-4b9d-abb5-769bbc25a25e","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"66a44f6a-09e2-4b9d-abb5-769bbc25a25e","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"LayerId":{"name":"528a07a5-b265-4e4c-8867-a022cc600000","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"herochar_death_anim_strip8","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","name":"66a44f6a-09e2-4b9d-abb5-769bbc25a25e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"330852e4-7ad5-4b77-bccc-62088ee351a6","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"330852e4-7ad5-4b77-bccc-62088ee351a6","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"LayerId":{"name":"528a07a5-b265-4e4c-8867-a022cc600000","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"herochar_death_anim_strip8","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","name":"330852e4-7ad5-4b77-bccc-62088ee351a6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"736699ec-59fa-451e-bf79-9cf0a032561e","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"736699ec-59fa-451e-bf79-9cf0a032561e","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"LayerId":{"name":"528a07a5-b265-4e4c-8867-a022cc600000","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"herochar_death_anim_strip8","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","name":"736699ec-59fa-451e-bf79-9cf0a032561e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"580f95d5-e28c-47a7-ac55-6953532470c7","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"580f95d5-e28c-47a7-ac55-6953532470c7","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"LayerId":{"name":"528a07a5-b265-4e4c-8867-a022cc600000","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"herochar_death_anim_strip8","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","name":"580f95d5-e28c-47a7-ac55-6953532470c7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"70c36a8f-215e-4176-920a-f775131bcaf3","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"70c36a8f-215e-4176-920a-f775131bcaf3","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"LayerId":{"name":"528a07a5-b265-4e4c-8867-a022cc600000","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"herochar_death_anim_strip8","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","name":"70c36a8f-215e-4176-920a-f775131bcaf3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"19007e11-c06a-432e-92e4-3fea1b2ce816","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"19007e11-c06a-432e-92e4-3fea1b2ce816","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"LayerId":{"name":"528a07a5-b265-4e4c-8867-a022cc600000","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"herochar_death_anim_strip8","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","name":"19007e11-c06a-432e-92e4-3fea1b2ce816","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5c1b27d0-ba68-4f32-a356-984b5adea277","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5c1b27d0-ba68-4f32-a356-984b5adea277","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"LayerId":{"name":"528a07a5-b265-4e4c-8867-a022cc600000","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"herochar_death_anim_strip8","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","name":"5c1b27d0-ba68-4f32-a356-984b5adea277","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f6844b01-acc9-4a02-9adb-893f9995b44a","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f6844b01-acc9-4a02-9adb-893f9995b44a","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"LayerId":{"name":"528a07a5-b265-4e4c-8867-a022cc600000","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"herochar_death_anim_strip8","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","name":"f6844b01-acc9-4a02-9adb-893f9995b44a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"66a44f6a-09e2-4b9d-abb5-769bbc25a25e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"330852e4-7ad5-4b77-bccc-62088ee351a6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"736699ec-59fa-451e-bf79-9cf0a032561e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"580f95d5-e28c-47a7-ac55-6953532470c7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"70c36a8f-215e-4176-920a-f775131bcaf3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"19007e11-c06a-432e-92e4-3fea1b2ce816",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5c1b27d0-ba68-4f32-a356-984b5adea277",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f6844b01-acc9-4a02-9adb-893f9995b44a",},
   ],
   "sequence": {
-    "spriteId": {"name":"herochar_death_anim_strip8","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "herochar_death_anim_strip8",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 16.0,
@@ -61,7 +50,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"087b1639-d60d-4ea2-8319-0eb68104b7d2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"66a44f6a-09e2-4b9d-abb5-769bbc25a25e","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6d40cf56-6c05-4d6d-852a-355ba8019e5a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"330852e4-7ad5-4b77-bccc-62088ee351a6","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7d5310cc-9166-447e-9a5c-b67cee9de851","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"736699ec-59fa-451e-bf79-9cf0a032561e","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -70,7 +59,7 @@
             {"id":"74683d08-4e15-4cbe-9976-fd2c51b0cd55","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"19007e11-c06a-432e-92e4-3fea1b2ce816","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3635f039-a93e-4bdf-8883-a39e1352f6b7","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5c1b27d0-ba68-4f32-a356-984b5adea277","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6a325fbc-4b6a-40ce-bd5a-d5a694107b97","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f6844b01-acc9-4a02-9adb-893f9995b44a","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -86,22 +75,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"herochar_death_anim_strip8","path":"sprites/herochar_death_anim_strip8/herochar_death_anim_strip8.yy",},
-    "resourceVersion": "1.4",
-    "name": "herochar_death_anim_strip8",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"528a07a5-b265-4e4c-8867-a022cc600000","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"528a07a5-b265-4e4c-8867-a022cc600000","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "herochar_death_anim_strip8",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

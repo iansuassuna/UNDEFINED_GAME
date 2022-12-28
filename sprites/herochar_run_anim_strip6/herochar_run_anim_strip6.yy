@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "herochar_run_anim_strip6",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,27 +27,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"861e88cf-ae1c-4c91-8993-9d3fb17fc127","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"861e88cf-ae1c-4c91-8993-9d3fb17fc127","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"LayerId":{"name":"237fd8f3-8acd-49ae-a3ca-174b5c6e7703","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"herochar_run_anim_strip6","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"resourceVersion":"1.0","name":"861e88cf-ae1c-4c91-8993-9d3fb17fc127","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bc4a57b6-34ed-4001-aecb-12ba753b31c1","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bc4a57b6-34ed-4001-aecb-12ba753b31c1","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"LayerId":{"name":"237fd8f3-8acd-49ae-a3ca-174b5c6e7703","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"herochar_run_anim_strip6","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"resourceVersion":"1.0","name":"bc4a57b6-34ed-4001-aecb-12ba753b31c1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"89ea575b-81fb-4485-8e5b-f528c99d9a5b","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"89ea575b-81fb-4485-8e5b-f528c99d9a5b","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"LayerId":{"name":"237fd8f3-8acd-49ae-a3ca-174b5c6e7703","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"herochar_run_anim_strip6","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"resourceVersion":"1.0","name":"89ea575b-81fb-4485-8e5b-f528c99d9a5b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2f232880-b946-4f5f-8e29-a940857e36b3","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2f232880-b946-4f5f-8e29-a940857e36b3","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"LayerId":{"name":"237fd8f3-8acd-49ae-a3ca-174b5c6e7703","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"herochar_run_anim_strip6","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"resourceVersion":"1.0","name":"2f232880-b946-4f5f-8e29-a940857e36b3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b1e2f3cc-f7cb-4e32-9a8a-9f3aac94a028","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b1e2f3cc-f7cb-4e32-9a8a-9f3aac94a028","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"LayerId":{"name":"237fd8f3-8acd-49ae-a3ca-174b5c6e7703","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"herochar_run_anim_strip6","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"resourceVersion":"1.0","name":"b1e2f3cc-f7cb-4e32-9a8a-9f3aac94a028","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"eb4f0334-2697-44d4-a454-8c73192ae5a6","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"eb4f0334-2697-44d4-a454-8c73192ae5a6","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"LayerId":{"name":"237fd8f3-8acd-49ae-a3ca-174b5c6e7703","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"herochar_run_anim_strip6","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"resourceVersion":"1.0","name":"eb4f0334-2697-44d4-a454-8c73192ae5a6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"861e88cf-ae1c-4c91-8993-9d3fb17fc127",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bc4a57b6-34ed-4001-aecb-12ba753b31c1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"89ea575b-81fb-4485-8e5b-f528c99d9a5b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2f232880-b946-4f5f-8e29-a940857e36b3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b1e2f3cc-f7cb-4e32-9a8a-9f3aac94a028",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eb4f0334-2697-44d4-a454-8c73192ae5a6",},
   ],
   "sequence": {
-    "spriteId": {"name":"herochar_run_anim_strip6","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "herochar_run_anim_strip6",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 12.0,
@@ -55,14 +48,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"85cdb14d-ed6c-46ca-b3b8-7980e0067a6b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"861e88cf-ae1c-4c91-8993-9d3fb17fc127","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5be79261-f3f4-4b6a-b274-a397ac3dc066","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bc4a57b6-34ed-4001-aecb-12ba753b31c1","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"851bd79c-cd36-4235-bb8a-12f54d36b850","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"89ea575b-81fb-4485-8e5b-f528c99d9a5b","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9d0db782-6267-4149-b174-28ef22ec2eec","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2f232880-b946-4f5f-8e29-a940857e36b3","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"68dc47b5-40c5-450c-9bad-d748a01565de","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b1e2f3cc-f7cb-4e32-9a8a-9f3aac94a028","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9bc70064-cba1-4b0d-889c-8b2987b52c7f","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eb4f0334-2697-44d4-a454-8c73192ae5a6","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -78,22 +71,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"herochar_run_anim_strip6","path":"sprites/herochar_run_anim_strip6/herochar_run_anim_strip6.yy",},
-    "resourceVersion": "1.4",
-    "name": "herochar_run_anim_strip6",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"237fd8f3-8acd-49ae-a3ca-174b5c6e7703","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"237fd8f3-8acd-49ae-a3ca-174b5c6e7703","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "herochar_run_anim_strip6",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

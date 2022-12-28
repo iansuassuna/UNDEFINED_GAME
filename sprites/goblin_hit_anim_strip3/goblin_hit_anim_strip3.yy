@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "goblin_hit_anim_strip3",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"42d538e1-f5b8-40a9-85dc-6227f66fc3cd","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"42d538e1-f5b8-40a9-85dc-6227f66fc3cd","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},"LayerId":{"name":"da8ee7b6-60fb-4b5b-b3a0-47672e327c93","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"goblin_hit_anim_strip3","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},"resourceVersion":"1.0","name":"42d538e1-f5b8-40a9-85dc-6227f66fc3cd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"318e38da-61cf-4c90-b186-a4e7a4c0ef89","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"318e38da-61cf-4c90-b186-a4e7a4c0ef89","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},"LayerId":{"name":"da8ee7b6-60fb-4b5b-b3a0-47672e327c93","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"goblin_hit_anim_strip3","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},"resourceVersion":"1.0","name":"318e38da-61cf-4c90-b186-a4e7a4c0ef89","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fc8d638d-3188-4a98-8c37-3b5452b9cde8","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fc8d638d-3188-4a98-8c37-3b5452b9cde8","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},"LayerId":{"name":"da8ee7b6-60fb-4b5b-b3a0-47672e327c93","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"goblin_hit_anim_strip3","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},"resourceVersion":"1.0","name":"fc8d638d-3188-4a98-8c37-3b5452b9cde8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"42d538e1-f5b8-40a9-85dc-6227f66fc3cd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"318e38da-61cf-4c90-b186-a4e7a4c0ef89",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fc8d638d-3188-4a98-8c37-3b5452b9cde8",},
   ],
   "sequence": {
-    "spriteId": {"name":"goblin_hit_anim_strip3","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "goblin_hit_anim_strip3",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 6.0,
@@ -43,14 +42,14 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 3.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7f42c0df-854b-43f1-89b7-735570e95dbb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"42d538e1-f5b8-40a9-85dc-6227f66fc3cd","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"689a9980-4d34-4631-9a51-77422c4e0326","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"318e38da-61cf-4c90-b186-a4e7a4c0ef89","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"f75ac409-41d9-4c18-a127-6acb1caf8571","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fc8d638d-3188-4a98-8c37-3b5452b9cde8","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"7f42c0df-854b-43f1-89b7-735570e95dbb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"42d538e1-f5b8-40a9-85dc-6227f66fc3cd","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"689a9980-4d34-4631-9a51-77422c4e0326","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"318e38da-61cf-4c90-b186-a4e7a4c0ef89","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f75ac409-41d9-4c18-a127-6acb1caf8571","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fc8d638d-3188-4a98-8c37-3b5452b9cde8","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"goblin_hit_anim_strip3","path":"sprites/goblin_hit_anim_strip3/goblin_hit_anim_strip3.yy",},
-    "resourceVersion": "1.4",
-    "name": "goblin_hit_anim_strip3",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"da8ee7b6-60fb-4b5b-b3a0-47672e327c93","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"da8ee7b6-60fb-4b5b-b3a0-47672e327c93","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "goblin_hit_anim_strip3",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
