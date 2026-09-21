@@ -33,8 +33,8 @@ Because this is an older project, some files or features may require adjustments
 
 ## Status
 
-This is a personal archival project and is not currently under active development.
+This is a personal archival project, that i made as a kid, and is not currently under active development.
 
 ## License
 
-No license has been specified for this repository. Unless a license is added, all rights are reserved by the copyright holder.
+All rights are reserved by the copyright holder.
